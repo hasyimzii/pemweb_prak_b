@@ -20,6 +20,7 @@
     
     <ul>
         <li>Jari-jari : <?= $bola->getRadius(); ?></li>
+        <li>Pi : <?= pi(); ?></li>
         <li>Volume : <?= $bola->volume(); ?></li>
         <li>Luas : <?= $bola->luas(); ?></li>
     </ul>
